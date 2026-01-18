@@ -1,11 +1,13 @@
-# PROJECT QUI DEMANDER L'INFORMATION D'UN USER
+# PROJECT QUI DEMANDER L'INFORMATION D'UN USER ; NOM ET AGE
+# VERSION SIMPLE 
 
-# 1 Creation de la variable nom
+# 1 Creation de la variable nom/while
 
 nom = ""
 while nom == "":
     nom = input("Quel est votre nom ? : ")
 
+# 1 Creation de la variable age/while
 age = 0
 
 while age == 0:
