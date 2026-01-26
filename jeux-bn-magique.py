@@ -62,5 +62,5 @@ for i in range(0, NB_VIE):
     else:
         print("le nombre magique est grand")
  
-if gagne == 0:
+if not gagne:
     print(f"Vous avez perdu le nombre magique etait {NOMBRE_MAGIQUE}")
